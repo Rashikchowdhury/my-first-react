@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
 import Books from './Books'
+import Counter from './counter'
 
 function App() {
   const books = [
@@ -15,16 +16,17 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      {
+      {/* {
         books.map(book => <Books book={book}></Books>)
       }
-      {/* <Student name="Rashik" age="20"></Student>
+      <Student name="Rashik" age="20"></Student>
       <Student name="Rayhan" age="25"></Student>
       <Student name="Tahi" age="25"></Student>
       <Person></Person>
       <Person2></Person2>
       <Student2 name="Albert" age="55"></Student2>
       <Todo></Todo> */}
+      <Counter></Counter>
     </>
   )
 }
