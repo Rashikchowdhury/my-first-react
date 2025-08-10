@@ -5,6 +5,7 @@ import './App.css'
 import Todo from './Todo'
 import Books from './Books'
 import Counter from './counter'
+import User from './users'
 
 function App() {
   const books = [
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <User></User>
       {/* {
         books.map(book => <Books book={book}></Books>)
       }
