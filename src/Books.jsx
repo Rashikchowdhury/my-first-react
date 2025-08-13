@@ -4,6 +4,7 @@ export default function Books({book}){
         <div>
             <h3>Name: {name}</h3>
             <p>Price: {price}</p>
+            
         </div>
     )
 }

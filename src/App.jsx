@@ -28,7 +28,7 @@ function App() {
       <Person2></Person2>
       <Student2 name="Albert" age="55"></Student2>
       <Todo></Todo> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
     </>
   )
 }
